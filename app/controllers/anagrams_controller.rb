@@ -9,7 +9,7 @@ class AnagramsController < ApplicationController
 	
 	def checkAnagram
 		logger.debug 
-		@anagram = AnagramDetector.create(anagram_params)
+		@anagram = AnagramDetector.new(anagram_params)
 		@result = @anagram.isAnagram
 		render 'result'
 	end
