@@ -1,0 +1,18 @@
+<%= form_for @anagram, url: {action: "checkAnagram"} do |f| %>
+	<div class="text-center row">
+		<h1>Anagram Detector</h1>
+	</div>
+	<div class="row">
+    <div class="large-6 columns">
+			<%= label_tag(:first_text, "First text:") %>
+			<%= f.text_field :first_text, placeholder: "Debit card" %>
+		</div>
+		<div class="large-6 columns">
+			<%= label_tag(:second_text, "Second text:") %>
+			<%= f.text_field :second_text, placeholder: "Bad credit" %>
+		</div>
+	</div>
+	<div class="row text-center">
+		<%= f.submit "Check", {class:"button"} %>
+	</div>
+<% end %>
