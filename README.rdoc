@@ -2,9 +2,7 @@
 
 This is a solution for the problem proposed by Resultados Digitails
 
-Como funciona:
-
-* How it works
+How it works:
 
 * Fill up the first text box with a word or a phrase
 
@@ -14,3 +12,4 @@ Como funciona:
 
 
 This app is avaleible on heroku!
+https://anagram-challenge.herokuapp.com/
