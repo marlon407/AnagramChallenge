@@ -1,15 +1,26 @@
 == Anagram Detector
 
-This is a solution for the problem proposed by Resultados Digitails
+This is a solution for the problem proposed by Resultados Digitais.
 
 How it works:
 
-* Fill up the first text box with a word or a phrase
+* Fill up the first text box with a word or a phrase.
 
-* Fill up the second text box the the work or phrase that you want to check if is an anagram
+* Fill up the second text box the the work or phrase that you want to check if is an anagram.
 
-* Click in Check and the result wilk show yo
-
+* Click in Check and the result.
 
 This app is avaleible on heroku!
 https://anagram-challenge.herokuapp.com/
+
+If you want to clone the repo and run locally:
+
+* Clone the repo or download it
+* cd AnagramChallenge
+* bundle install
+* rake db:create
+* rake db:migrate
+* rails s
+
+To test the app:
+* rake test
